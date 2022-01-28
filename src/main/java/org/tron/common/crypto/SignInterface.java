@@ -10,7 +10,7 @@ public interface SignInterface {
 
   byte[] getPubKey();
 
-  byte[] getAddress();
+  byte[] getAddress();TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t
 
   String signHash(byte[] hash);
 
@@ -22,5 +22,5 @@ public interface SignInterface {
 
   byte[] getPrivKeyBytes();
 
-  SignatureInterface sign(byte[] hash);
+  SignatureInterface sign(byte[] hash);TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t
 }
